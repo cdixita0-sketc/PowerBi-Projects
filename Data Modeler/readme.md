@@ -29,10 +29,6 @@ This project focuses on Data Modeling in Power BI using a normalized dataset. Th
 - Cleaned and structured tables
 - Prepared dimension and fact tables
 
-## Power Query Overview
-
-![Power Query Overview](Screenshots/01_Power_Query_Overview.png)
-
 ### Relationship Management
 - Created One-to-Many relationships
 - Demonstrated Many-to-One relationships

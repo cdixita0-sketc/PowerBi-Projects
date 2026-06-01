@@ -1,8 +1,21 @@
 # Data Modeler - Building a Normalized Star Schema Data Model
 
-## Project Overview
+## Project Objective
 
-This project focuses on Data Modeling in Power BI using a normalized dataset. The objective was to design an efficient data model, create relationships between tables, implement hierarchies, configure data categories, and validate filter flow using matrix tables.
+Designed and implemented a normalized data model in Power BI using industry-standard data modeling practices. The project focused on relationship management, schema design, hierarchies, data categories, and model validation.
+
+## Skills Demonstrated
+
+- Data Modeling
+- Star Schema Design
+- Fact & Dimension Modeling
+- Relationship Management
+- Cardinality Configuration
+- Cross Filter Direction
+- Active & Inactive Relationships
+- Hierarchy Creation
+- Data Categories
+- Matrix-Based Validation
 
 ## Tools Used
 
@@ -10,102 +23,83 @@ This project focuses on Data Modeling in Power BI using a normalized dataset. Th
 - Power Query
 - Model View
 
-## Dataset Structure
+## Data Model Architecture
 
-### Fact Tables
-- Sales_Fact
-- Return_Fact
+### Star Schema Model
 
-### Dimension Tables
-- Customer_Dim
-- Product_Dim
-- Date_Dim
-- Region_Dim
+![Star Schema Model](Screenshots/Star_Schema_Model.png)
 
-## Data Modeling Tasks Completed
+The model follows a Star Schema design with `Sales_Fact` as the central fact table and supporting dimension tables for Customer, Product, Date, and Region.
 
-### Power Query Transformations
-- Verified data types
-- Cleaned and structured tables
-- Prepared dimension and fact tables
+## Relationship Management
 
-### Relationship Management
-- Created One-to-Many relationships
-- Demonstrated Many-to-One relationships
-- Demonstrated One-to-One relationship
-- Configured Single Cross Filter Direction
-- Tested Bidirectional Filtering
-- Created an Inactive Relationship
-- Identified and resolved ambiguity issues
+![Manage Relationships](Screenshots/Manage Relationship.png)
 
-### Hierarchies Created
+Implemented:
+- One-to-Many Relationships
+- One-to-One Relationships
+- Single-Direction Filtering
+- Relationship Validation
 
-#### Date Hierarchy
-Year → Quarter → Month → Date
+## Power Query Transformations
 
-#### Region Hierarchy
-Country → State → City
+![Power Query Transformation](Screenshots/Power Query Transformation.png)
 
-#### Product Hierarchy
-Category → Subcategory → ProductName
+Performed data preparation and table structuring using Power Query.
 
-### Data Categories Applied
+## Data Categories
 
+![Data Categories](Screenshots/Data_Category.png)
+
+Configured:
 - Country → Country/Region
 - State → State/Province
 - City → City
 
-## Schema Design
+## Hierarchies
 
-The model follows a Star Schema architecture where the Sales_Fact table acts as the central fact table connected to multiple dimension tables.
+### Date Hierarchy
 
-## Ambiguity Resolution
+![Date Hierarchy](Screenshots/Date_Hierarchy.png)
 
-An ambiguity issue occurred between:
+Year → Quarter → Month → Date
 
-Return_Fact → Sales_Fact → Date_Dim
+### Region Hierarchy
 
-and
+![Region Hierarchy](Screenshots/Region_Hierarchy.png)
 
-Return_Fact → Date_Dim
+Country → State → City
 
-To avoid multiple filter paths, the relationship between Return_Fact and Date_Dim was kept inactive.
+### Product Hierarchy
 
-## Verification Using Matrix Tables
+![Product Hierarchy](Screenshots/Product_Hierarchy.png)
 
-The model was verified using Matrix visuals:
+Category → Subcategory → Product Name
+
+## Advanced Modeling
+
+### Inactive Relationship
+
+![Inactive Relationship](Screenshots/Inactive_Relationship.png)
+
+Created and managed inactive relationships to handle alternate filter paths.
+
+## Model Validation
+
+![Model Verification](Screenshots/Model Verification_Matrices.png)
+
+Validated relationship flow using Matrix visuals:
 
 1. Sales by Product Category and Region
 2. Return Reasons by Fiscal Year
 3. Revenue by Customer Segment
 
-## Key Concepts Demonstrated
+## Key Learning Outcomes
 
-- Star Schema Design
-- Relationship Cardinality
-- Cross Filter Direction
-- Active vs Inactive Relationships
-- Hierarchies
-- Data Categories
-- Filter Propagation
-- Ambiguity Resolution
-
-## Project Screenshots
-
-- Model View
-- Relationship Management
-- Hierarchies
-- Data Categories
-- Inactive Relationship
-- Matrix Verification
-
-## Learning Outcomes
-
-This project improved my understanding of:
-
-- Data Modeling in Power BI
-- Fact and Dimension Tables
-- Relationship Design
-- Schema Architecture
-- Filter Flow Management
-- Model Optimization
+- Understanding Fact vs Dimension Tables
+- Designing Star Schema Models
+- Managing Cardinality
+- Handling Ambiguous Filter Paths
+- Creating Hierarchies
+- Applying Data Categories
+- Validating Relationship Flow

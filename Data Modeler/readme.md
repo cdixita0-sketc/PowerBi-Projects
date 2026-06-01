@@ -91,6 +91,18 @@ Created a Date Hierarchy:
 - Date
 
 ---
+# Date Hierarchy
+
+![Date Hierarchy](Date_Hierarchy.png)
+
+Created a Date Hierarchy:
+
+- Year
+- Quarter
+- Month
+- Date
+
+---
 
 # Region Hierarchy
 
@@ -113,8 +125,6 @@ Created a Product Hierarchy:
 - Category
 - Subcategory
 - Product Name
-
----
 
 # Model Verification
 

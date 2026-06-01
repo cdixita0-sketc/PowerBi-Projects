@@ -27,13 +27,13 @@ Designed and implemented a normalized data model in Power BI using industry-stan
 
 ### Star Schema Model
 
-![Star Schema Model](Screenshots/Star_Schema_Model.png)
+![Star Schema Model](Star_Schema_Model.png)
 
 The model follows a Star Schema design with `Sales_Fact` as the central fact table and supporting dimension tables for Customer, Product, Date, and Region.
 
 ## Relationship Management
 
-![Manage Relationships](Screenshots/Manage_Relationship.png)
+![Manage Relationships](Manage_Relationship.png)
 
 Implemented:
 - One-to-Many Relationships
@@ -43,13 +43,13 @@ Implemented:
 
 ## Power Query Transformations
 
-![Power Query Transformation](Screenshots/Power_Query_Transformation.png)
+![Power Query Transformation](Power_Query_Transformation.png)
 
 Performed data preparation and table structuring using Power Query.
 
 ## Data Categories
 
-![Data Categories](Screenshots/Data_Category.png)
+![Data Categories](Data_Category.png)
 
 Configured:
 - Country → Country/Region
@@ -60,19 +60,19 @@ Configured:
 
 ### Date Hierarchy
 
-![Date Hierarchy](Screenshots/Date_Hierarchy.png)
+![Date Hierarchy](Date_Hierarchy.png)
 
 Year → Quarter → Month → Date
 
 ### Region Hierarchy
 
-![Region Hierarchy](Screenshots/Region_Hierarchy.png)
+![Region Hierarchy](Region_Hierarchy.png)
 
 Country → State → City
 
 ### Product Hierarchy
 
-![Product Hierarchy](Screenshots/Product_Hierarchy.png)
+![Product Hierarchy](Product_Hierarchy.png)
 
 Category → Subcategory → Product Name
 
@@ -80,13 +80,13 @@ Category → Subcategory → Product Name
 
 ### Inactive Relationship
 
-![Inactive Relationship](Screenshots/Inactive_Relationship.png)
+![Inactive Relationship](Inactive_Relationship.png)
 
 Created and managed inactive relationships to handle alternate filter paths.
 
 ## Model Validation
 
-![Model Verification](Screenshots/Model_Verification_Matrices.png)
+![Model Verification](Model_Verification_Matrices.png)
 
 Validated relationship flow using Matrix visuals:
 

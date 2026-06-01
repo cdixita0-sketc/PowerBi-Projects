@@ -1,110 +1,108 @@
-# Data Leverager – Power Query ETL Project
+# Data Leverager - Power Query ETL & Data Transformation
 
 ## Project Overview
-Data Leverager is an ETL (Extract, Transform, Load) project developed using Power Query in Power BI. The project focuses on importing, cleaning, transforming, merging, and preparing sales and employee datasets for analytical reporting.
 
-The objective of this project is to demonstrate practical data preparation techniques commonly used in real-world business intelligence and data analytics workflows.
+This project focuses on ETL (Extract, Transform, Load) processes using Power Query in Power BI. The objective was to clean, transform, and prepare raw datasets for analysis by handling data quality issues and combining data from multiple sources.
 
----
+## Tools Used
 
-## Business Problem
-Organizations often receive raw sales data from multiple sources and periods. These datasets may contain:
-- Missing values
-- Inconsistent formatting
-- Duplicate information
-- Invalid records
-- Unstructured data
-
-The goal of this project was to transform raw datasets into a clean and analysis-ready format for reporting and decision-making.
-
----
-
-## Datasets Used
-
-### Sales Datasets
-- Sales_Jan.xlsx
-- Sales_Feb.xlsx
-- Sales_Mar.xlsx
-
-### Employee Dataset
-- Employee_Data.xlsx
-
-The datasets contain:
-- Order details
-- Employee information
-- Product data
-- Sales transactions
-- Regional information
-
----
-
-## ETL Process Performed
-
-### 1. Data Extraction
-- Imported multiple Excel files into Power BI
-- Loaded datasets into Power Query
-
-### 2. Append Operations
-- Combined January, February, and March sales datasets using:
-  - Append Queries as New
-
-### 3. Data Cleaning
-- Handled null values
-- Removed invalid records
-- Replaced missing values with appropriate defaults
-- Standardized text formatting
-- Corrected incorrect data types
-
-### 4. Data Transformation
-- Split OrderID into:
-  - MonthCode
-  - OrderNumber
-- Added Index Column
-- Created Conditional Columns for sales categorization
-- Applied Trim and Clean transformations
-
-### 5. Merge Operations
-- Merged Sales and Employee datasets using:
-  - EmployeeID
-- Applied Left Outer Join
-- Expanded employee-related attributes into the sales dataset
-
-### 6. Aggregation & Grouping
-Performed Group By operations to calculate:
-- Total Sales
-- Average Order Value
-- Transaction Count by Region
-
----
-
-## Tools & Technologies
-- Power BI
+- Power BI Desktop
 - Power Query
-- Microsoft Excel
+
+---
+
+## Employee Data
+
+Initial employee dataset loaded into Power Query for transformation and cleaning.
+
+![Employee Data](Employee_data_cleanpng.png)
+
+---
+
+## Merge Queries
+
+Combined multiple datasets using Merge Queries to enrich and consolidate information.
+
+![Merge Queries](Merge_Queries.png)
+
+---
+
+## Merge Queries - Clean Data
+
+Validated and cleaned merged data to ensure consistency and accuracy.
+
+![Merge Queries Clean Data](Merge_Queries clean data.png)
+
+---
+
+## Append Queries
+
+Appended multiple datasets into a single unified table for analysis.
+
+![Append Queries](Append_Queries.png)
+
+---
+
+## Clean Dataset
+
+Performed data cleaning operations such as:
+
+- Handling null values
+- Removing duplicates
+- Correcting data types
+- Standardizing formats
+
+![Clean Dataset](Clean_Dataset.png)
+
+---
+
+## Final Clean Dataset
+
+Final transformed dataset ready for reporting and analysis.
+
+![Final Clean Dataset](Clean_Dataset2.png)
+
+---
+
+## ETL Processes Demonstrated
+
+### Extract
+- Imported raw datasets into Power BI.
+
+### Transform
+- Removed duplicates
+- Handled null values
+- Changed data types
+- Renamed columns
+- Merged datasets
+- Appended datasets
+
+### Load
+- Loaded cleaned and transformed data into the Power BI data model.
 
 ---
 
 ## Skills Demonstrated
-- ETL Workflow
+
+- Power Query
+- ETL Processes
 - Data Cleaning
-- Data Transformation
-- Query Append
-- Query Merge
-- Conditional Logic
-- Aggregation & Grouping
-- Data Preparation
-- Power Query Operations
-
----
-
-## Project Screenshots
-The repository includes screenshots demonstrating:
-- Append Queries
+- Null Value Handling
+- Duplicate Removal
 - Merge Queries
-- Conditional Columns
-- Final Cleaned Dataset
+- Append Queries
+- Data Transformation
+- Data Preparation
+- Power BI
 
 ---
 
-## Conclusion
-Data Leverager demonstrates a complete beginner-to-intermediate ETL workflow using Power Query. The project highlights practical data cleaning, transformation, merging, and aggregation techniques used in modern business intelligence projects.
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Cleaning raw datasets
+- Preparing data for analysis
+- Combining multiple data sources
+- Building ETL workflows in Power Query
+- Improving data quality and consistency

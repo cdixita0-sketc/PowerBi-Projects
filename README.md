@@ -47,7 +47,7 @@ A complete ETL workflow project developed using Power Query in Power BI.
 
 ## Overview
 
-Designed and implemented a relational data model in Power BI using fact and dimension tables. Built a Star Schema model, configured relationships, created hierarchies, applied data categories, and resolved ambiguity issues.
+
 
 ## Skills Demonstrated
 

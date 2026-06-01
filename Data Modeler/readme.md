@@ -86,19 +86,7 @@ Configured geographic data categories for improved model usability.
 Created a Date Hierarchy:
 
 - Year
-- Quarter
-- Month
-- Date
-
----
-# Date Hierarchy
-
-![Date Hierarchy](Date_Hierarchy.png)
-
-Created a Date Hierarchy:
-
-- Year
-- Quarter
+- Quarte
 - Month
 - Date
 

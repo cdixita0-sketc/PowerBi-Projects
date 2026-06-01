@@ -43,7 +43,39 @@ A complete ETL workflow project developed using Power Query in Power BI.
 - ETL Workflow
 
 ---
+# 2. Data Modeler - Building a Normalized Star Schema Data Model
 
+## Overview
+
+Designed and implemented a relational data model in Power BI using fact and dimension tables. Built a Star Schema model, configured relationships, created hierarchies, applied data categories, and resolved ambiguity issues.
+
+## Skills Demonstrated
+
+- Data Modeling
+- Star Schema Design
+- Relationship Management
+- Cardinality Configuration
+- Cross Filter Direction
+- Active and Inactive Relationships
+- Hierarchy Creation
+- Data Categories
+- Power Query
+- Power BI Model View
+
+### Project Link
+[Open Project Folder](./Data%20Modeler)
+
+## Key Achievements
+
+- Built a normalized data model
+- Created and managed table relationships
+- Demonstrated 1:1, 1:* and *:1 cardinality
+- Implemented Date, Product and Region hierarchies
+- Applied geographic data categories
+- Identified and resolved filter ambiguity
+- Validated model behavior using Matrix visuals
+
+  
 ## Upcoming Projects
 This repository will continue expanding with additional Power BI projects related to:
 - Interactive Dashboards

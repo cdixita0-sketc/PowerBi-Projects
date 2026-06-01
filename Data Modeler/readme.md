@@ -41,6 +41,12 @@ Implemented:
 - Single-Direction Filtering
 - Relationship Validation
 
+## Inactive Relationship
+
+![Inactive Relationship](Inactive_Relationship.png)
+
+An inactive relationship was created between Return_Fact and Date_Dim using ReturnDateKey. This was used to demonstrate how Power BI handles multiple relationship paths and ambiguity scenarios while maintaining a clean data model.
+
 ## Power Query Transformations
 
 ![Power Query Transformation](Power_Query_Transformation.png)

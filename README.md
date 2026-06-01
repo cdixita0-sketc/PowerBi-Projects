@@ -75,18 +75,6 @@ Designed and implemented a relational data model in Power BI using fact and dime
 - Identified and resolved filter ambiguity
 - Validated model behavior using Matrix visuals
 
-  
-## Upcoming Projects
-This repository will continue expanding with additional Power BI projects related to:
-- Interactive Dashboards
-- KPI Reporting
-- HR Analytics
-- Sales Analytics
-- Business Intelligence
-- Data Storytelling
-
----
-
 # Tools & Technologies
 - Power BI
 - Power Query

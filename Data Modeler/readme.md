@@ -33,7 +33,7 @@ The model follows a Star Schema design with `Sales_Fact` as the central fact tab
 
 ## Relationship Management
 
-![Manage Relationships](Screenshots/Manage Relationship.png)
+![Manage Relationships](Screenshots/Manage_Relationship.png)
 
 Implemented:
 - One-to-Many Relationships
@@ -43,7 +43,7 @@ Implemented:
 
 ## Power Query Transformations
 
-![Power Query Transformation](Screenshots/Power Query Transformation.png)
+![Power Query Transformation](Screenshots/Power_Query_Transformation.png)
 
 Performed data preparation and table structuring using Power Query.
 
@@ -86,7 +86,7 @@ Created and managed inactive relationships to handle alternate filter paths.
 
 ## Model Validation
 
-![Model Verification](Screenshots/Model Verification_Matrices.png)
+![Model Verification](Screenshots/Model_Verification_Matrices.png)
 
 Validated relationship flow using Matrix visuals:
 

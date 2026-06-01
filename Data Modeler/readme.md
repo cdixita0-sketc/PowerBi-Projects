@@ -1,21 +1,19 @@
 # Data Modeler - Building a Normalized Star Schema Data Model
 
-## Project Objective
+## Project Overview
 
-Designed and implemented a normalized data model in Power BI using industry-standard data modeling practices. The project focused on relationship management, schema design, hierarchies, data categories, and model validation.
+This project focuses on designing and implementing a normalized Star Schema data model in Power BI. The objective was to build a scalable and efficient model using Fact and Dimension tables, relationship management, hierarchies, data categories, and model validation techniques.
 
-## Skills Demonstrated
+## Project Objectives
 
-- Data Modeling
-- Star Schema Design
-- Fact & Dimension Modeling
-- Relationship Management
-- Cardinality Configuration
-- Cross Filter Direction
-- Active & Inactive Relationships
-- Hierarchy Creation
-- Data Categories
-- Matrix-Based Validation
+- Build a normalized Star Schema model
+- Create and manage table relationships
+- Configure relationship cardinality
+- Implement hierarchies
+- Apply data categories
+- Demonstrate inactive relationships
+- Handle ambiguity scenarios
+- Validate model behavior using Matrix visuals
 
 ## Tools Used
 
@@ -23,89 +21,156 @@ Designed and implemented a normalized data model in Power BI using industry-stan
 - Power Query
 - Model View
 
-## Data Model Architecture
+---
 
-### Star Schema Model
-
-![Star Schema Model](Star_Schema_Model.png)
-
-The model follows a Star Schema design with `Sales_Fact` as the central fact table and supporting dimension tables for Customer, Product, Date, and Region.
-
-## Relationship Management
-
-![Manage Relationships](Manage_Relationship.png)
-
-Implemented:
-- One-to-Many Relationships
-- One-to-One Relationships
-- Single-Direction Filtering
-- Relationship Validation
-
-## Inactive Relationship
-
-![Inactive Relationship](Inactive_Relationship.png)
-
-An inactive relationship was created between Return_Fact and Date_Dim using ReturnDateKey. This was used to demonstrate how Power BI handles multiple relationship paths and ambiguity scenarios while maintaining a clean data model.
-
-## Power Query Transformations
+# Power Query Transformation
 
 ![Power Query Transformation](Power_Query_Transformation.png)
 
-Performed data preparation and table structuring using Power Query.
+Prepared and structured the dataset using Power Query. Verified data types and organized Fact and Dimension tables.
 
-## Data Categories
+---
+
+# Star Schema Model
+
+![Star Schema Model](Star_Schema_Model.png)
+
+Designed a Star Schema model with Sales_Fact as the central fact table connected to Customer, Product, Date, and Region dimensions.
+
+---
+
+# Relationship Management
+
+![Manage Relationships](Manage_Relationship.png)
+
+Configured table relationships, cardinality, and filter directions to ensure proper data flow throughout the model.
+
+### Relationship Types Demonstrated
+
+- One-to-Many (1:*)
+- Many-to-One (*:1)
+- One-to-One (1:1)
+
+### Filter Direction
+
+- Single Cross Filter Direction
+
+---
+
+# Inactive Relationship
+
+![Inactive Relationship](Inactive_Relationship.png)
+
+Created an inactive relationship between Return_Fact and Date_Dim to demonstrate alternate filter paths and relationship management techniques.
+
+---
+
+# Data Categories
 
 ![Data Categories](Data_Category.png)
 
-Configured:
+Configured geographic data categories for improved model usability.
+
+### Categories Applied
+
 - Country → Country/Region
 - State → State/Province
 - City → City
 
-## Hierarchies
+---
 
-### Date Hierarchy
+# Date Hierarchy
 
 ![Date Hierarchy](Date_Hierarchy.png)
 
-Year → Quarter → Month → Date
+Created a Date Hierarchy:
 
-### Region Hierarchy
+- Year
+- Quarter
+- Month
+- Date
+
+---
+
+# Region Hierarchy
 
 ![Region Hierarchy](Region_Hierarchy.png)
 
-Country → State → City
+Created a Region Hierarchy:
 
-### Product Hierarchy
+- Country
+- State
+- City
+
+---
+
+# Product Hierarchy
 
 ![Product Hierarchy](Product_Hierarchy.png)
 
-Category → Subcategory → Product Name
+Created a Product Hierarchy:
 
-## Advanced Modeling
+- Category
+- Subcategory
+- Product Name
 
-### Inactive Relationship
+---
 
-![Inactive Relationship](Inactive_Relationship.png)
-
-Created and managed inactive relationships to handle alternate filter paths.
-
-## Model Validation
+# Model Verification
 
 ![Model Verification](Model_Verification_Matrices.png)
 
-Validated relationship flow using Matrix visuals:
+Validated relationship flow and model behavior using Matrix visuals.
 
-1. Sales by Product Category and Region
-2. Return Reasons by Fiscal Year
-3. Revenue by Customer Segment
+### Verification Scenarios
 
-## Key Learning Outcomes
+#### Sales by Product Category and Region
 
-- Understanding Fact vs Dimension Tables
-- Designing Star Schema Models
-- Managing Cardinality
-- Handling Ambiguous Filter Paths
-- Creating Hierarchies
-- Applying Data Categories
-- Validating Relationship Flow
+Verified dimension-to-fact filter propagation.
+
+#### Return Reasons by Fiscal Year
+
+Validated date-based relationship behavior.
+
+#### Revenue by Customer Segment
+
+Confirmed customer dimension integration with the sales fact table.
+
+---
+
+# Key Concepts Demonstrated
+
+- Star Schema Design
+- Fact and Dimension Tables
+- Relationship Management
+- Cardinality
+- Cross Filter Direction
+- Active and Inactive Relationships
+- Hierarchies
+- Data Categories
+- Matrix Validation
+- Filter Propagation
+
+---
+
+# Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Designing scalable Power BI data models
+- Creating and managing relationships
+- Understanding Fact vs Dimension tables
+- Implementing Star Schema architecture
+- Handling inactive relationships
+- Resolving ambiguity scenarios
+- Building reusable hierarchies
+- Applying data categories
+- Validating model performance and accuracy
+
+---
+
+# Project Files
+
+- Data_Modeler.pbix
+- README.md
+- Project Screenshots

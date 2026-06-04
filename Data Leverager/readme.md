@@ -31,7 +31,7 @@ Combined multiple datasets using Merge Queries to enrich and consolidate informa
 
 Validated and cleaned merged data to ensure consistency and accuracy.
 
-![Merge Queries clean data](Merge_Queries clean data.png)
+![Merge_Queries_cleandata](Merge_Queries_cleandata.png)
 
 ---
 

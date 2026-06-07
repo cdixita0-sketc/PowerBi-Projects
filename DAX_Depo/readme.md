@@ -126,13 +126,13 @@ The project demonstrates how DAX can be used to create business insights from sa
 
 ## Star Schema Data Model
 
-![Star Schema Model](Screenshots/Star_schema_Model.png)
+![Star Schema Model](Star_schema_Model.png)
 
 ---
 
 ## Relationships View
 
-![Relationships View](Screenshots/Relationships_View.png)
+![Relationships View](Relationships_View.png)
 
 ---
 

@@ -75,9 +75,6 @@ A complete ETL workflow project developed using Power Query in Power BI.
 - Identified and resolved filter ambiguity
 - Validated model behavior using Matrix visuals
 
-# Power BI Projects Portfolio
-
-Welcome to my Power BI portfolio repository. This repository contains hands-on projects focused on data modeling, Power Query, DAX, dashboard development, and business intelligence reporting.
 
 # 3. DEX_Depo - Power BI DAX Analysis Project
 

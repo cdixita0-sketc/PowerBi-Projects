@@ -79,33 +79,40 @@ A complete ETL workflow project developed using Power Query in Power BI.
 
 Welcome to my Power BI portfolio repository. This repository contains hands-on projects focused on data modeling, Power Query, DAX, dashboard development, and business intelligence reporting.
 
-## Projects
+# 3. DEX_Depo - Power BI DAX Analysis Project
 
-### 1. DEX_Depo - Power BI DAX Analysis Project
+## Overview
 
-A comprehensive Power BI project focused on learning and implementing DAX concepts including:
+DEX_Depo is a Power BI project focused on implementing Data Analysis Expressions (DAX) concepts through practical business scenarios. The project demonstrates calculated columns, measures, filter context, time intelligence, iterator functions, relationship functions, and matrix-based reporting using a Star Schema data model.
 
+## Skills Demonstrated
+
+* DAX Development
 * Calculated Columns
 * Measures
-* Filter Context
+* Filter Context Analysis
 * Time Intelligence
 * Iterator Functions
 * Relationship Functions
+* Star Schema Design
 * Matrix-Based Reporting
-* Star Schema Data Modeling
-
-**Skills Demonstrated**
-
 * Power BI Data Modeling
-* DAX Development
-* Time Intelligence
-* Business Reporting
-* Analytical Thinking
 
-
----
 ### Project Link
-[Open Project Folder](./DAX%20Depo)
+
+[Open Project Folder](./DAX_Depo)
+
+## Key Achievements
+
+* Created calculated columns using logical, text, and date functions
+* Built reusable business measures using DAX
+* Implemented CALCULATE(), FILTER(), and ALL() for filter context analysis
+* Developed Time Intelligence calculations using TOTALYTD(), SAMEPERIODLASTYEAR(), DATESINPERIOD(), and DATESBETWEEN()
+* Applied iterator functions including SUMX(), AVERAGEX(), and COUNTX()
+* Organized calculations using a dedicated Measure Table
+* Built matrix reports for regional, product, customer, and monthly analysis
+* Implemented relationship functions using RELATED()
+* Followed Star Schema modeling best practices
 
 ### Upcoming Projects
 

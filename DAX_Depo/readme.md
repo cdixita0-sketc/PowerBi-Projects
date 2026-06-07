@@ -138,7 +138,7 @@ The project demonstrates how DAX can be used to create business insights from sa
 
 ## Measure Table
 
-![Measure Table](Screenshots/Measure_Table.png)
+![Measure Table](Measure_Table.png)
 
 ---
 

@@ -1,4 +1,4 @@
-# 📊 Sales & Customer Intelligence Dashboard
+#  Sales & Customer Intelligence Dashboard
 
 ## Overview
 
@@ -44,6 +44,22 @@ A Star Schema model was implemented to improve performance, scalability, and rep
 - Hidden Technical Keys
 - Consistent Naming Conventions
 - Optimized Report Performance
+- 
+## Data Preparation & Power Query
+
+Data cleaning and transformation were performed using Power Query to ensure data quality and consistency before building the data model.
+
+### Transformations Performed
+
+- Verified and corrected data types
+- Reviewed key columns and relationships
+- Validated dimension and fact tables
+- Prepared data for Star Schema modeling
+- Removed unnecessary fields where applicable
+
+### Screenshot
+
+![Power Query Transformations](01_Power_Query_Transformations.png)
 
 ### Data Model Screenshot
 
@@ -216,7 +232,7 @@ Implemented regional security roles allowing managers to view data only for thei
 
 ### RLS Screenshot
 
-![RLS Configuration](10_RLS_Configuration.png)
+![RLS Configuration](10_RLS_Manage_Roles.png)
 
 ---
 

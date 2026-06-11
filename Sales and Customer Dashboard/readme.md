@@ -222,9 +222,23 @@ Enabled detailed customer analysis through interactive drillthrough pages.
 
 Applied visual enhancements to improve insight discovery and readability.
 
-### Mobile Layout
 
-Created mobile-optimized dashboard layouts for improved accessibility.
+## 5. Mobile Layout
+
+### Purpose
+
+The dashboard was optimized for mobile devices to ensure accessibility and usability across different screen sizes.
+
+### Mobile Design Features
+
+- Prioritized key KPI cards
+- Optimized visual placement for vertical scrolling
+- Improved readability on smaller screens
+- Maintained interactive filtering experience
+
+### Screenshot
+
+![Mobile Layout](09_Mobile_Layout.png)
 
 ### Row-Level Security (RLS)
 

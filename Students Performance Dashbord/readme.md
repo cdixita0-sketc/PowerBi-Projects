@@ -66,7 +66,7 @@ The project uses four datasets:
 
 ## 📈 Dashboard Preview
 
-![Dashboard](Students_Dashboard.png)
+![Dashboard](Students_Dashbord.png)
 
 ---
 
@@ -78,13 +78,13 @@ The project uses four datasets:
 
 ## 🔄 Power Query Data Cleaning
 
-![Power Query](Students_Cleaning.png)
+![Power Query](01_Students_Cleaning.png)
 
 ---
 
 ## 🗂 Data Model
 
-![Data Model](Data_Model_StarSchema.png)
+![Data Model](02_Data_Model_StarSchema.png)
 
 ---
 

@@ -134,7 +134,7 @@ Student Performance Dashboard is a Power BI project focused on analyzing academi
 
 ### Project Link
 
-[Open Project Folder](./Student Performance Dashboard)
+[Open Project Folder](./Student-Performance-Dashboard)
 
 ## Key Achievements
 

@@ -111,7 +111,7 @@ DEX_Depo is a Power BI project focused on implementing Data Analysis Expressions
 * Implemented relationship functions using RELATED()
 * Followed Star Schema modeling best practices
 
-# 1. Student Performance Dashboard - Academic & Behavioral Insights
+# 5. Student Performance Dashboard - Academic & Behavioral Insights
 
 ## Overview
 

@@ -60,31 +60,31 @@ The project uses four datasets:
 
 ### DAX Formulas Screenshot
 
-![DAX Formulas](Screenshots/DAX_Formulas.png)
+![DAX Formulas](DAX_Formulas.png)
 
 ---
 
 ## 📈 Dashboard Preview
 
-![Dashboard](Screenshots/Dashboard.png)
+![Dashboard](Students_Dashboard.png)
 
 ---
 
 ## 👤 Student Profile Drillthrough
 
-![Student Profile](Screenshots/Student_Profile.png)
+![Student Profile](Student_Profile_Drillthrough.png)
 
 ---
 
 ## 🔄 Power Query Data Cleaning
 
-![Power Query](Screenshots/Power_Query.png)
+![Power Query](Students_Cleaning.png)
 
 ---
 
 ## 🗂 Data Model
 
-![Data Model](Screenshots/Data_Model.png)
+![Data Model](Data_Model_StarSchema.png)
 
 ---
 

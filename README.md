@@ -111,13 +111,74 @@ DEX_Depo is a Power BI project focused on implementing Data Analysis Expressions
 * Implemented relationship functions using RELATED()
 * Followed Star Schema modeling best practices
 
-### Upcoming Projects
+# 1. Student Performance Dashboard - Academic & Behavioral Insights
 
-* Sales Dashboard Project
-* Power Query Transformation Project
-* Data Modeling Project
-* Customer Analytics Dashboard
-* End-to-End Business Intelligence Solutions
+## Overview
+
+Student Performance Dashboard is a Power BI project focused on analyzing academic performance, attendance records, and behavioral trends of students. The project demonstrates practical Business Intelligence development through data cleaning, data modeling, DAX calculations, dashboard creation, and drillthrough reporting.
+
+## Skills Demonstrated
+
+* Power BI Dashboard Development
+* Data Cleaning
+* Data Transformation
+* Power Query
+* DAX Measures
+* Calculated Columns
+* KPI Development
+* Data Modeling
+* Star Schema Design
+* Drillthrough Analysis
+* Data Visualization
+* Business Intelligence Reporting
+
+### Project Link
+
+[Open Project Folder](./Student Performance Dashboard)
+
+## Key Achievements
+
+* Cleaned and transformed multiple student datasets using Power Query
+* Built a Star Schema data model connecting Students, Scores, Attendance, and Behavior tables
+* Created DAX measures for score analysis, attendance tracking, and behavioral monitoring
+* Developed KPI cards for Total Students, Attendance %, Average Score, and Behavior Count
+* Designed interactive dashboards with slicers for Class, Section, Subject, and Term
+* Built academic performance trend analysis using line charts
+* Created behavior distribution analysis using donut charts
+* Implemented conditional formatting for student performance evaluation
+* Developed a drillthrough page for individual student analysis
+* Applied dashboard design best practices for reporting and storytelling
+
+### Dashboard Components
+
+* Student Performance Dashboard
+* Academic Performance Analysis
+* Attendance Analysis
+* Behavioral Insights
+* Interactive Filtering
+* Student Profile Drillthrough Page
+
+### Repository Structure
+
+```text
+Student-Performance-Dashboard/
+│
+├── README.md
+├── Student Performance Dashboard.pbix
+├── Dataset/
+│   ├── Students.csv
+│   ├── Scores.csv
+│   ├── Attendance.csv
+│   └── Behavior.csv
+│
+└── Screenshots/
+    ├── Dashboard.png
+    ├── Student_Profile.png
+    ├── Data_Model.png
+    ├── Power_Query.png
+    └── DAX_Formulas.png
+```
+
 
 ---
 
